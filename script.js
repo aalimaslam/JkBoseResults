@@ -8,5 +8,13 @@ form.addEventListener('submit',(e)=>{
         window.open('./Umaid.html');
         input.value = '';
     }
+        else if (input.value =='hira roll no'){
+            window.open('./hira.html')
+            input.value = '';
+        }
+        else if(input.value == 'aisha roll no'){
+        window.open('./aisha.html');
+            input.value = '';
+        }
     })
 })

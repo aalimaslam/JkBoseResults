@@ -7,6 +7,7 @@ form.addEventListener('submit',(e)=>{
     if(input.value == '18129677'){
         window.open('./Umaid.html');
         input.value = '';
+        setTimeout(()=>{alert('You Have Been Pranked')},3000)
     }
         else if (input.value =='hira roll no'){
             window.open('./hira.html')
@@ -15,6 +16,9 @@ form.addEventListener('submit',(e)=>{
         else if(input.value == 'aisha roll no'){
         window.open('./aisha.html');
             input.value = '';
+        }
+        else{
+        alert('No Result Found');
         }
     })
 })

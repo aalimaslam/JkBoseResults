@@ -7,7 +7,6 @@ form.addEventListener('submit',(e)=>{
     if(input.value == '18129677'){
         window.open('./Umaid.html');
         input.value = '';
-        setTimeout(()=>{alert('You Have Been Pranked')},10)
     }
         else if (input.value =='hira roll no'){
             window.open('./hira.html')

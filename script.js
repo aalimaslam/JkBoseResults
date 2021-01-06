@@ -1,5 +1,5 @@
 const input = document.getElementById('Id');
-const form = document.getElementById('form');
+const form = document.getElementById('form2');
 const button = document.getElementById('check');
 form.addEventListener('submit',(e)=>{
     e.preventDefault()

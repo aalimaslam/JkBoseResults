@@ -5,7 +5,7 @@ const aud = document.getElementById('audio');
     aud.play();
 },3000)
     button.addEventListener('click',()=>{  
-        window.open('./Umaid.html');
+        window.open('./Aalim.html');
                 if(input.value == '18129677'){
                     window.open('./Aalim.html');
                     input.value = '';

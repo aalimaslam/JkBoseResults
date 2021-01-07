@@ -12,7 +12,7 @@ form.addEventListener('submit',(e)=>{
             window.open('./hira.html')
             input.value = '';
         }
-        else if(input.value == 'aisha roll no'){
+        else if(input.value == '18140301'){
         window.open('./aisha.html');
             input.value = '';
         }

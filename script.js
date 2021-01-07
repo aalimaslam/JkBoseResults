@@ -7,7 +7,7 @@ const aud = document.getElementById('audio');
     button.addEventListener('click',()=>{  
         window.open('./Umaid.html');
                 if(input.value == '18129677'){
-                    window.open('./Umaid.html');
+                    window.open('./Aalim.html');
                     input.value = '';
                 }
                     else if (input.value =='hira roll no'){
@@ -19,6 +19,6 @@ const aud = document.getElementById('audio');
                         input.value = '';
                     }
                     else{
-                    alert('No Result Found');
+                    alert('You are not Qualified');
                     }
     })

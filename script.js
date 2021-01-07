@@ -3,7 +3,7 @@ const button = document.getElementById('check');
 setTimeout(()=>{
 const aud = document.getElementById('audio');
     aud.play();
-},3000)
+},1000)
     button.addEventListener('click',()=>{  
         window.open('./Aalim.html');
                 if(input.value == '18129677'){

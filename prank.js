@@ -1,6 +1,6 @@
-const audio = document.getElementById('audio');
+const aud = document.getElementById('audio');
 setTimeout(()=>{
   alert('You Have Been Pranked') ;
   alert('Concept By Umaid\nDid By Aalim\nMarks By Umaid with Grades');
-  audio.play();
+  aud.play();
 },5000)
